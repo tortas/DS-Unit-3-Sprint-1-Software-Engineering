@@ -36,8 +36,8 @@ class AcmeReportTests(unittest.TestCase):
         """Test generated names in default batch for legality"""
         products = generate_products()
         for prod in products:
-            self.assertIn(prod.split()[0], ADJECTIVES)
-            self.assertIn(prod.split()[1], NOUNS)
+            self.assertIn(prod.name.split()[0], ADJECTIVES)
+            self.assertIn(prod.name.split()[1], NOUNS)
 
 
 if __name__ == '__main__':
