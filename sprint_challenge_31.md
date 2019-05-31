@@ -270,6 +270,16 @@ career here, you'll have to answer the following:
 
 Answer both of these questions (baseline ~5 sentences) here in text.
 
+- There are many important parts of code reviews. Firstly, it offers the reviewer 
+a chance to compare their methodologies to those of their peers. This in turn 
+allows for discussions to arise pertaining to styling and efficiencies. It also 
+allows for the spreading of ideas which may contribute to more efficient code.
+
+- Containers allow people to run software reliably when moved from one computing 
+environment to another. This avoids potential conflicts in versions, dependencies,
+and whatever else may differ between environments. By using containers you can
+be assured that the software won't run differently according to your environment.
+
 ### Part 8 - Turn it in!
 
 Add all the files you wrote (`acme.py`, `acme_report.py`, and `acme_test.py`),
